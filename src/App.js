@@ -1,9 +1,11 @@
 import './App.css';
+import { Home } from "./Home.js"
 
 function App() {
+  const user = { id: 1, name: "Ted" }
   return (
-    <div className="App">
-      Welcome to Bay and Marble Donut Shoppe
+    <div className="app">
+      <Home user={user} />
     </div>
   );
 }
