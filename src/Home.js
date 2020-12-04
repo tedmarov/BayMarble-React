@@ -5,6 +5,10 @@ export const Home = (props) => {
     const num = 0
     const bakers = ["Anita", "Ginger", "Dusty", "Josephine"]
 
+    const takeNumber = () => {
+        console.log(num)
+    }
+
     return (
         <>
             <h1>Welcome to Bay and Marble Doughnut Shoppe, {props.user.name}</h1>
@@ -17,7 +21,7 @@ export const Home = (props) => {
             </ul>
 
             <h2>Please take a ticket</h2>
-            <button>Get Ticket</button>
+            <button onClick={takeNumber}>Get Ticket</button>
         </>
     )
 }
