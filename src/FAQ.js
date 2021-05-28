@@ -9,8 +9,8 @@ export const FAQ = () => {
         },
         {
             id: 2,
-            question: "",
-            answer: ""
+            question: "Which donuts are the healthiest?",
+            answer: "None of them!"
         },
         {
             id: 3,
